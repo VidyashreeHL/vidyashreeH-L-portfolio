@@ -19,9 +19,13 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Vidyashree H L - Portfolio</title>
-        <meta name="description" content="Portfolio of Vidyashree H L, Backend MERN Developer" />
+         <title>Vidyashree H L - Portfolio</title>
+         <meta name="description" content="Portfolio of Vidyashree H L, Backend MERN Developer" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+
+<main className="bg-gray-100 min-h-screen p-6 text-base md:text-lg">
+
       <main className="bg-gray-100 min-h-screen p-6">
         {/* Header / About Me */}
         <section className="text-center py-10">
